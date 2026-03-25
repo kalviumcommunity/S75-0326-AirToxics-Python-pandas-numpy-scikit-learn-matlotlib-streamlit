@@ -191,3 +191,71 @@ Verification:
 ### ✅ Conclusion
 The system is correctly configured with Python and Anaconda.
 The environment is verified and ready for data science development.
+
+## 🧪 Environment Verification (Python, Conda, Jupyter)
+
+### 💻 Operating System
+Windows 11 (64-bit)
+
+---
+
+### 🐍 Python Verification
+Command:
+python --version
+
+Output:
+Python 3.11.x
+
+Command:
+python
+
+Test:
+>>> print("Hello DS Sprint")
+
+Verification:
+- Python is accessible via terminal
+- Python REPL runs without errors
+
+---
+
+### 🐍 Conda Verification
+Command:
+conda --version
+
+Output:
+conda 24.x.x
+
+Command:
+conda env list
+
+Output:
+(base) environment available
+
+Command:
+conda activate base
+
+Verification:
+- Conda is installed and accessible
+- Environment activates successfully
+
+---
+
+### 📓 Jupyter Verification
+Command:
+jupyter notebook
+
+Verification:
+- Jupyter opens successfully in browser
+- New notebook created
+- Python cell executed:
+
+print("Jupyter working")
+
+Output:
+Jupyter working
+
+---
+
+### ✅ Conclusion
+Python, Conda, and Jupyter are correctly installed and integrated.
+The environment is verified and ready for Data Science workflows.
