@@ -142,4 +142,52 @@ This project empowers citizens by:
 
 - Making pollution data easy to understand  
 - Encouraging health-aware lifestyle choices  
-- Promoting awareness about environmental conditions  
+- Promoting awareness about environmental conditions
+
+## 🧪 Environment Setup Verification
+
+### 💻 Operating System
+Windows 11 (64-bit)
+
+### 🐍 Python Verification
+Command:
+python --version
+
+Output:
+Python 3.11.x
+
+Verification:
+- Python is successfully installed
+- Accessible via command prompt
+
+---
+
+### 🐍 Conda Verification
+Command:
+conda --version
+
+Output:
+conda 24.x.x
+
+Verification:
+- Anaconda installed successfully
+- Conda accessible via terminal
+
+---
+
+### ⚙️ Environment Check
+Command:
+python
+
+Output:
+Python REPL started successfully
+
+Verification:
+- Python runs without errors
+- Environment ready for DS/ML work
+
+---
+
+### ✅ Conclusion
+The system is correctly configured with Python and Anaconda.
+The environment is verified and ready for data science development.
